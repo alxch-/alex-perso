@@ -1,8 +1,3 @@
 [submodule "themes/hugo-split-theme"]
 	path = themes/hugo-split-theme
 	url = https://github.com/alxch-/hugo-split-theme.git
-	branch = master
-[submodule "public"]
-	path = public
-	url = https://github.com/alxch-/alxch-.github.io.git
-	branch = master
