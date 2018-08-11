@@ -1,0 +1,100 @@
+# Site settings
+baseURL = "//alex.work"
+languageCode = "en-US"
+title = "Alex Charrier"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-104080636-1"
+
+# Copyright
+copyright = "&copy Alex Charrier"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Alex Charrier"
+  description = "Alex Charrier's personal website."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    [params.visual.video]
+        enable = false
+        mute = true
+        file = "videos/background.mp4"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Who am I"
+
+      [[params.links.list1.link]]
+        text = "Resume"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Projects"
+        url = "/projects"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "/blog"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/alxch"
+        type = "fab"
+        icon = "twitter"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/alex.charrier"
+        type = "fab"
+        icon = "facebook"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/alexcharrier/"
+        type = "fab"
+        icon = "linkedin"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contact"
+
+      [[params.links.list3.link]]
+        text = "me@alex.work"
+        url = "mailto:me@alex.work"
+        icon = "envelope"
+
+      [[params.links.list3.link]]
+        text = "+33624249590"
+        url = "tel:33624249590"
+        icon = "phone"
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
