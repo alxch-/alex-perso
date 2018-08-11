@@ -1,7 +1,7 @@
 +++
 title = "Alex Charrier"
 tagline = "Blog"
-background = "images/background.jpg"
+background = "images/city.png"
 +++
 
 Coming soon

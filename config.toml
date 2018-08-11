@@ -61,6 +61,12 @@ copyright = "&copy Alex Charrier"
       heading = "Social"
 
       [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/alxch-"
+        type = "fab"
+        icon = "github"
+
+      [[params.links.list2.link]]
         text = "Twitter"
         url = "https://twitter.com/alxch"
         type = "fab"

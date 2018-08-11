@@ -1,7 +1,7 @@
 +++
 title = "Alex Charrier"
 tagline = "Projects"
-background = "images/lezard.jpg"
+background = "images/foobar.png"
 +++
 
 Coming soon
