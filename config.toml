@@ -45,7 +45,7 @@ copyright = "&copy Alex Charrier"
 
       [[params.links.list1.link]]
         text = "Resume"
-        url = "/CHARRIER-ALEX-CV.pdf"
+        url = "https://drive.google.com/file/d/19UEACdZZAYFezigTIvA4fl7M8e8GGC5U/view"
 
       [[params.links.list1.link]]
         text = "Projects"
