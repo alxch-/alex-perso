@@ -3,7 +3,7 @@ baseURL = "//alex.work"
 languageCode = "en-US"
 title = "Alex Charrier"
 theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS"]
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-104080636-1"
@@ -16,8 +16,8 @@ copyright = "&copy Alex Charrier"
   # Metadata for search engines and social sharing
   author = "Alex Charrier"
   description = "Alex Charrier's personal website."
-  shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  shareImage = "images/thumbnail.jpg"
+  twitterHandle = "alxch"
 
   # Favicon
   favicon = "favicon.ico"
@@ -45,7 +45,7 @@ copyright = "&copy Alex Charrier"
 
       [[params.links.list1.link]]
         text = "Resume"
-        url = "#"
+        url = "/CHARRIER-ALEX-CV.pdf"
 
       [[params.links.list1.link]]
         text = "Projects"
