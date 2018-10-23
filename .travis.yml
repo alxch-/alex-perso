@@ -13,11 +13,11 @@ branches:
     - master
   
 install:
-  - go get github.com/magefile/mage
-  - go get -d github.com/gohugoio/hugo
-  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  - mage vendor
-  - HUGO_BUILD_TAGS=extended mage install
+  - mkdir $HOME/src
+  - cd $HOME/src
+  - git clone https://github.com/gohugoio/hugo.git
+  - cd hugo
+  - go install --tags extended
   - cd ${TRAVIS_BUILD_DIR}
 
 script:
