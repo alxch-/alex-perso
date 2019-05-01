@@ -2,4 +2,4 @@
 title = "Alex Charrier"
 tagline = "Software developer"
 +++
-I am a final-year student at [CentraleSupélec](http://www.centralesupelec.fr/). Former intern at [Datadog](https://datadoghq.com) in the Application Performance Management team.
+Building distributed systems at [Datadog](https://datadoghq.com), in the Application Performance Monitoring team in Paris.
