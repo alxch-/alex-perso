@@ -94,10 +94,6 @@ copyright = "&copy Alex Charrier"
         url = "mailto:me@alex.work"
         icon = "envelope"
 
-      [[params.links.list3.link]]
-        text = "+33624249590"
-        url = "tel:33624249590"
-        icon = "phone"
 
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
